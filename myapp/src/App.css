@@ -1,0 +1,38 @@
+.container {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 700px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.student-info {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 8px;
+    min-width: 150px;
+}
+
+
+/* For screens smaller than 768px */
+
+@media (max-width: 768px) {
+    .student-info {
+        flex-direction: column;
+        align-items: center;
+    }
+}
